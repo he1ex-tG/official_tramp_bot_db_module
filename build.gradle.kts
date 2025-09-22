@@ -1,12 +1,11 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
-    kotlin("plugin.spring") version "2.0.0"
-    id("org.springframework.boot") version "3.5.6"
-    id("io.spring.dependency-management") version "1.1.7"
+    kotlin("jvm")
+    kotlin("plugin.spring")
+    id("org.springframework.boot")
+    id("io.spring.dependency-management")
 }
 
 group = "com.xxdadx.veexaris.db_module"
-version = "1.0-SNAPSHOT"
 description = "VEEXARIS VPN - Database module"
 
 kotlin {

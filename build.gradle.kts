@@ -5,8 +5,8 @@ plugins {
     id("io.spring.dependency-management")
 }
 
-group = "com.xxdadx.veexaris.db_module"
-description = "VEEXARIS VPN - Database module"
+group = "com.xxdadx.official_tramp_bot.db_module"
+description = "Official tramp bot - Database module"
 
 kotlin {
     jvmToolchain(21)
